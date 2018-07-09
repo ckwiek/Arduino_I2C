@@ -4,7 +4,8 @@
      * Este codigo exemplifica o uso de duas placas modulos com PCF8574 que recebem via BUS I2C
      * de uma placa Arduino UNO, sinais que ativam determinadas saidas que por sua vez ativam LEDs.
      * 
-     * Note que entre a placa Arduino e os modulos existe uma interface de transistores
+     * 
+     * Note que entre a saida dos modulos e os LEDs, existe uma interface de transistores
      * já que o modulos I2C não tem suficiente corrente para acender um LED.
      * 
      * Eng.Carlos kwiek
